@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Grand Marina Premier | Bất Động Sản Nghỉ Dưỡng & Biệt Thự Biển Hạng Sang</title>
+    <meta name="title" content="Grand Marina Premier | Bất Động Sản Nghỉ Dưỡng & Biệt Thự Biển Hạng Sang" />
+    <meta name="description" content="Khám phá Grand Marina Premier - Quần thể biệt thự biển và dinh thự nghỉ dưỡng 6 sao độc bản. Sơ đồ mặt bằng 3D tương tác, video flycam 4K, tải tự động trọn bộ brochure & bảng giá đợt 1 từ CĐT." />
+    <meta name="keywords" content="Grand Marina Premier, biệt thự biển, bất động sản nghỉ dưỡng, dinh thự biển sang trọng, resort 6 sao, đầu tư bất động sản biển, bảng giá Grand Marina" />
+    <meta name="author" content="Grand Marina Premier Collection" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#061523" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://grandmarinapremier.vn/" />
+    <meta property="og:title" content="Grand Marina Premier – Bất Động Sản Nghỉ Dưỡng & Biệt Thự Biển Hạng Sang" />
+    <meta property="og:description" content="Biệt thự biển siêu sang với sơ đồ mặt bằng 3D tương tác, bến du thuyền chuẩn quốc tế & chính sách cam kết lợi nhuận vượt trội." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1600&q=80" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://grandmarinapremier.vn/" />
+    <meta property="twitter:title" content="Grand Marina Premier – Biệt Thự Biển Hạng Sang" />
+    <meta property="twitter:description" content="Trải nghiệm tuyệt tác nghỉ dưỡng bên bờ vịnh ngọc. Sơ đồ 3D tương tác và nhận bảng giá ưu đãi đợt 1 ngay." />
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1600&q=80" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌊</text></svg>" />
+
+    <!-- Google Fonts with Full Native Vietnamese Support (Playfair Display & Plus Jakarta Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Structured Data (JSON-LD) for Google SEO Top 1 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "RealEstateAgent",
+      "name": "Grand Marina Premier",
+      "description": "Quần thể biệt thự nghỉ dưỡng biển hạng sang với bến du thuyền quốc tế và tiện ích 6 sao.",
+      "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1600&q=80",
+      "telephone": "+84 1800 6868",
+      "priceRange": "$$$$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Đại lộ Biển Bãi Dài",
+        "addressLocality": "Phú Quốc",
+        "addressRegion": "Kiên Giang",
+        "postalCode": "920000",
+        "addressCountry": "VN"
+      }
+    }
+    </script>
+    <!-- Theme Initializer Script (Prevents FOUT) -->
+    <script>
+      (function() {
+        try {
+          const params = new URLSearchParams(window.location.search);
+          const urlTheme = params.get('theme');
+          const savedTheme = localStorage.getItem('gm_theme');
+          if (urlTheme === 'light' || (!urlTheme && savedTheme === 'light')) {
+            document.documentElement.classList.remove('dark');
+          } else {
+            document.documentElement.classList.add('dark');
+          }
+        } catch(e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#FAFAF9] text-slate-900 dark:bg-[#050D15] dark:text-slate-100 antialiased selection:bg-[#D4AF37] selection:text-[#050D15] transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
